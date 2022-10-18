@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    test pull
+    <form action="../../Backend/PHP/calcolo.php" method="post">
+        <p>Giorni di lavoro: <input type="number" required name="giorni"></p>
+        <p>Ore di lavoro: <input type="number" required name="ore"></p>
+        <p>Compenso orario: <input type="number" required name="compenso"></p>
+        <p><input type="submit" value="Calcola" name="submit"></p>
+    </form>
 </body>
 </html>
