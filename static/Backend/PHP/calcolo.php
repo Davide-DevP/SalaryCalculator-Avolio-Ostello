@@ -1,6 +1,8 @@
 <?php
 if(isset($_POST["submit"]))
 {
-	$echo ("test");
+	$giorni = $_POST["giorni"];
+	$ore = (Float)$_POST["ore"];
+	$compenso = (Float)$_POST["compenso"];
 }
 ?>
