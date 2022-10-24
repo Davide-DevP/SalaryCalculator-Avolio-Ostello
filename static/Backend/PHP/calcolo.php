@@ -35,7 +35,7 @@
                     $compenso = (Float)$_POST["compenso"];
 
                     $tot = $giorni * $ore * $compenso;
-                    echo("<div class='row' style='padding-right: 0px;padding-top: 0px;width: 100%;margin: auto;'>
+                    echo("<div class='row' id='standard-row'>
                             <div class='col text-center'><p class='text-center' style='font-size: 20px;'>Guadagnerai <strong>$tot&euro;</strong> lavorando $giorni giorni al compenso di $compenso&euro;/h</p></div>
                     </div>");
                 }
