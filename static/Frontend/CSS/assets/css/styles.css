@@ -21,3 +21,32 @@
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3FCEC7", endColorstr="#56D4CE", GradientType=1 );
 }
+
+#standard-container {
+  margin: auto;
+  margin-top: 50px;
+  background: var(--bs-white);
+  height: 100%;
+}
+
+#standard-row {
+  padding-right: 0px;
+  padding-top: 0px;
+  width: 100%;
+  margin: auto;
+}
+
+#calcola {
+  background: var(--bs-gray-600);
+  color: var(--bs-black);
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+#inputs {
+  width: 100%;
+  background: var(--bs-border-color-translucent);
+  margin-bottom: 10px;
+}
