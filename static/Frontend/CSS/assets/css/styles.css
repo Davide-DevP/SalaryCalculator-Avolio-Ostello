@@ -10,16 +10,15 @@
   }
 }
 
+html{
+  height: 100%;
+}
+
 #grad {
-  background: hsla(177, 59%, 53%, 1);
-
-  background: radial-gradient(circle, hsla(177, 59%, 53%, 1) 0%, hsla(177, 59%, 58%, 1) 0%, hsla(176, 59%, 94%, 1) 79%, hsla(0, 0%, 100%, 1) 100%);
-
-  background: -moz-radial-gradient(circle, hsla(177, 59%, 53%, 1) 0%, hsla(177, 59%, 58%, 1) 0%, hsla(176, 59%, 94%, 1) 79%, hsla(0, 0%, 100%, 1) 100%);
-
-  background: -webkit-radial-gradient(circle, hsla(177, 59%, 53%, 1) 0%, hsla(177, 59%, 58%, 1) 0%, hsla(176, 59%, 94%, 1) 79%, hsla(0, 0%, 100%, 1) 100%);
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3FCEC7", endColorstr="#56D4CE", GradientType=1 );
+  background: linear-gradient(180deg, #D0CFFF 0%, #9ECAF3 100%);
+  mix-blend-mode: normal;
+  width: 100%;
+  height: 100%
 }
 
 #standard-container {
@@ -27,6 +26,7 @@
   margin-top: 50px;
   background: var(--bs-white);
   height: 100%;
+  padding: 50px 100px 100px 50px;
 }
 
 #standard-row {
@@ -37,7 +37,7 @@
 }
 
 #calcola {
-  background: var(--bs-gray-600);
+  background: #D0CFFF;
   color: var(--bs-black);
   font-weight: bold;
   font-size: 20px;
@@ -49,4 +49,14 @@
   width: 100%;
   background: var(--bs-border-color-translucent);
   margin-bottom: 10px;
+}
+
+#obbligatorio {
+  color: red;
+}
+
+input[type=number] {
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
 }
