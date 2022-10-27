@@ -16,16 +16,16 @@
                 <div class="col text-center"><strong class="text-center" style="font-size: 32px;">Quanto sarai povero?</strong></div>
             </div>
             <div class="row" id="standard-row">
-                <div class="col text-start" style="width: auto;"><strong class="text-start" style="font-size: 20px;margin-bottom: 10px;">Giorni</strong><input class="placeholder" type="number" id="inputs" required="" name="giorni" min="1" placeholder="Inserire il numero di giorni lavorativi"></div>
+                <div class="col text-start" style="width: auto;"><strong class="text-start" style="font-size: 20px;margin-bottom: 10px;">Giorni</strong><input class="placeholder" type="number" id="inputs" required name="giorni" min="1" placeholder="Inserire il numero di giorni lavorativi"><p id="obbligatorio">Campo obbligatorio</p></div>
             </div>
             <div class="row" id="standard-row">
-                <div class="col text-start" style="width: auto;"><strong class="text-start" style="font-size: 20px;margin-bottom: 10px;">Ore giornaliere di lavoro</strong><input class="placeholder" type="number" min="1" max="8" id="inputs" required="" name="ore" min="1" placeholder="Inserire il numero di ore lavorative giornaliere"></div>
+                <div class="col text-start" style="width: auto;"><strong class="text-start" style="font-size: 20px;margin-bottom: 10px;">Ore giornaliere di lavoro</strong><input class="placeholder" type="number" min="1" max="8" id="inputs" required name="ore" min="1" placeholder="Inserire il numero di ore lavorative giornaliere"><p id="obbligatorio">Campo obbligatorio</p></div>
             </div>
             <div class="row" id="standard-row">
-                <div class="col text-start" style="width: auto;"><strong class="text-start" style="font-size: 20px;margin-bottom: 10px;">Compenso orario</strong><input class="placeholder" type="number" id="inputs" required="" name="compenso" min="1" placeholder="Inserire il guadagno ad ora"></div>
+                <div class="col text-start" style="width: auto;"><strong class="text-start" style="font-size: 20px;margin-bottom: 10px;">Compenso orario</strong><input class="placeholder" type="number" id="inputs" required name="compenso" min="1" placeholder="Inserire il guadagno ad ora"><p id="obbligatorio">Campo obbligatorio</p></div>
             </div>
             <div class="row text-center" style="margin: auto;">
-                <div class="col" style="width: auto;"><button name="submit" class="btn btn-primary font-monospace border rounded-pill border-5 shadow" type="submit" id="calcola">Calcola</button></div>
+                <div class="col" style="width: auto;"><button name="submit" class="btn btn-primary font-monospace border border-5 shadow" type="submit" id="calcola">Calcola</button></div>
             </div>
             <?php
                 if(isset($_POST["submit"]))
